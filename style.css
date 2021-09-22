@@ -13,16 +13,15 @@ body{
 }
 
 :root{
-    --primary-color: #1D4ED8;
-    --secondary-color: #EFF6FF;
-    --txt-color: #4B5563;
+    --primary-color: #6366F1;
+    --secondary-color: #4F46E5;
+    --txt-color: #374151;
 }
 
 /* NAVIGATION */
 #logo{
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    
     font-family: 'EB Garamond', serif;
     margin-top: 8px;
 }
@@ -35,11 +34,11 @@ body{
 nav{
     display: flex;
     flex-direction: column;
-    height: 15vh;
+    height: 17vh;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.521) ;
     background-color: #F3F4F6;
+    box-shadow: 1px 1px 2px black;
 }
 
 nav ul{
@@ -52,7 +51,7 @@ nav li a{
     text-decoration: none;
     padding: 5px 20px;
     font-size: 1.3rem;
-    color: var(--primary-color);
+    color: var(--txt-color);
     font-family: 'EB Garamond', serif;
     margin-right: 20px;
     border-radius: 5px;
@@ -63,9 +62,36 @@ nav li a:hover{
     background-color: var(--primary-color);
     color: white;
 }
+/* NAVIGATION END  */
 
+/* HEADER */
 header{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.hero-img{
+    width: 650px;
+    max-width: 90%;
+    margin: 80px 50px;
+    padding-right: 50px;
+}
+
+header h1{
+    font-size: 3.9rem;
+    margin-top: -150px;
+    color: var(--primary-color);
+}
+
+header small{
+    font-size: 1.2rem;
+    padding-left: 30PX;
+    position: relative;
+    top: 10px;
+    color: var(--txt-color);
+    font-weight: bold;
+}
+/* HEADER END */
 
 
