@@ -118,7 +118,7 @@ section{
 }
 
 section p{
-    margin: auto;
+    text-align: center;
     padding: 10px 0px;
     font-size: 1.2rem;
 }
@@ -180,5 +180,5 @@ footer img{
 
 ul li{
     list-style: none;
-    
+    text-align: center;
 }
