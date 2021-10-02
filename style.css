@@ -147,10 +147,28 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 footer p{
     font-size: 1.3rem;
-    padding: 20px 5px;
+    padding: 70px 5px;
+}
+footer a{
+    
+}
+footer img{
+    width: 40px;
+}
+
+.heading{
+    font-size: 3.4rem; 
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0px;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
 }
